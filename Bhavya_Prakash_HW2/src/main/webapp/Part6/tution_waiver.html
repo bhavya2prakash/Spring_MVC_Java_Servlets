@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+
+	<title>Tution Waiver Form</title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="form.css">
+	
+	
+
+</head>
+
+<body>
+	<header>
+
+		<div id="wrap">
+				<div id = "left"><img alt="Image Name" src="logo.png" >
+								
+				</div>
+				
+				<div id = "right"><h2>Tution Waiver Form</h2></div>
+				
+		</div>
+	</header>
+	<br>
+	<br>
+	<nav>
+		
+		<p class="instructions">This form is used by part-time faculty, part-time staff, retirees, their spouses or domestic partners and their dependents.
+			All full-time faculty and staff should use the online Tuition Waiver Form found on myNEU. Before completing this form,
+			please refer to the Tuition Waiver Program Guidelines. Be sure to include a Dependent Certification Form along with
+			the submission of this form for any dependent children</p>
+	</nav>
+	<main>
+	
+		<form action="../DisplayUserInput" method="post">
+		    <h3>Section 1</h3>
+			
+			Academin Term:<input type="text" name="Academin Term" class="input1">(Fall, Winter, Spring, or Summer)*  &nbsp; 
+			Academic Year:<input type="text" name="Academic Year" maxlength="4" class="input1">
+			&nbsp; &nbsp; 
+			Employee Status:<input type="checkbox" name="Employee Status" value="PT/Staff">P/T Staff
+								   <input type="checkbox" name="Employee Status" value="P/T Faculty">P/T Faculty
+								   <input type="checkbox" name="Employee Status" value="Retiree">Retiree
+								   <input type="checkbox" name="Employee Status" value="Other">Other
+								  <input type="text" name="Employee Status" class="input1">
+			<p><i>*Terms with multiple sessions are considered one academic term for tuition waiver purposes e.g., summer sessions I and
+			II are considered one academic term.</i>
+			</p>					  
+			<h3>Section 2</h3>
+	
+			Student’s Name:<input type="text" name="Student Name" class="input1">&nbsp;
+			Relationship to Employee :<input type="text" name="Relationship to Employee" class="input1">&nbsp;
+			Student’s NUID: <input type="text" name="Student NUID"class="input1" ><br><br>
+				 
+			Employee’s Name :<input type="text" name="Employee Name" class="input1">(if different from Student’s)&nbsp; &nbsp;&nbsp;&nbsp;
+			Employee’s NUID:<input type="text" name="Employee NUID" class="input1"><br><br>
+						  
+			Department :<input type="text" name="Department" class="input1"> &nbsp; 
+			Campus Location:<input type="text" name="Campus Location" class="input1">&nbsp; 
+			Phone Number :<input type="text" name="Phone Number" class="input1" ><br><br> 
+			Supervisor’s Name:<input type="text" name="Supervisor Name" class="input1"><br>
+					 
+			<br>
+			<h3>Section 3   <span id="indicate">Indicate the applicable school or program:</span></h3>
+			<input type="checkbox" name="Program" value="Undergraduate Program">Undergraduate Program
+			<input type="checkbox" name="Program" value="Law School (excludes employees)">Law School (excludes employees)
+			<input type="checkbox" name="Program" value="Doctoral Candidate">Doctoral Candidate 
+			<input type="checkbox" name="Program" value="College of Professional Studies (CPS) Undergraduate">College of Professional Studies (CPS) Undergraduate
+			<input type="checkbox" name="Program" value="Graduate School">Graduate School
+			<input type="checkbox" name="Program" value="CPS Graduate School">CPS Graduate School
+			<p class="course">One course per academic term may be taken one-half hour before the end of your workday. If this applies to you, this
+			form must be signed by your supervisor below and approved by Human Resources Management.</p>
+			<p class="course">Complete the following course information. If you are an employee taking a job related course, please attach the Job
+				Related Designation Form to this waiver. </p>
+								   
+		
+				
+							<table>
+
+										<thead>
+										<tr>
+										<th>Course No.</th>
+										<th>Course Name </th>
+										<th>Supervisor Signature</th>
+										<th>Credit Hrs.</th>
+										<th>Day(s)</th>
+										<th>Time</th>
+
+										</tr>
+										</thead>
+
+										<tbody>
+										<tr>
+										<td><input type="text" name="Course No.1" value="" class="input2"></td>
+										<td><input type="text" name="Course Name1" value="" class="input2"></td>
+										<td><input type="text" name="Supervisor Signature1" value="" class="input2"></td>
+										<td><input type="text" name="Credit Hrs.1" value="" class="input2"></td>
+										<td><input type="text" name="Day(s)1" value="" class="input2"></td>
+										<td><input type="time" name="Time1" value="" class="input2"></td>
+										</tr>
+
+										<tr>
+										<td><input type="text" name="Course No.2" value="" class="input2"></td>
+										<td><input type="text" name="Course Name2" value="" class="input2"></td>
+										<td><input type="text" name="Supervisor Signature2" value="" class="input2"></td>
+										<td><input type="text" name="Credit Hrs.2" value="" class="input2"></td>
+										<td><input type="text" name="Day(s)2" value="" class="input2"></td>
+										<td><input type="time" name="Time2" value="" class="input2"></td>
+										</tr>
+										<tr>
+										<td><input type="text" name="Course No.3" value="" class="input2"></td>
+										<td><input type="text" name="Course Name3" value="" class="input2"></td>
+										<td><input type="text" name="Supervisor Signature3" value="" class="input2"></td>
+										<td><input type="text" name="Credit Hrs.3" value="" class="input2"></td>
+										<td><input type="text" name="Day(s)3" value="" class="input2"></td>
+										<td><input type="time" name="Time3" value="" class="input2"></td>
+										</tr>
+										</tbody>
+								</table>	
+				<h3>Section 4</h3>
+				<p  style="color:black;"><i>In accordance with Northeastern University's Tuition Waiver Program Guidelines, my signature attests that I am
+				currently enrolled in the above courses, or that the student listed above is my spouse, domestic partner or
+				unmarried dependent child or the dependent child of my domestic partner as defined under current IRS tax
+				regulations. I also certify that I have read the Tuition Waiver Program Guidelines.</i> </p>
+					
+				Employee Signature:<input type="text" name="Employee Signature" value="" class="input1"> &nbsp; &nbsp; &nbsp; &nbsp;
+				Date:<input type="date" id="datepicker1"name="Employee Signature Date"class="input1" />	
+				<h3>Section 5</h3>
+				
+					
+				HRM Approval :<input type="text" name="HRM Approval" value="" class="input1"> &nbsp; &nbsp; &nbsp; &nbsp;
+				Date:<input type="date" id="datepicker2" name="HRM Approval Daye" class="input1"/>
+				<p class="course">Forms will be reviewed for completeness and eligibility. You will be notified if any additional information is needed. Mail completed form to
+				Human Resources, 250 Columbus Place or fax to (617) 373-7610. All waivers must be received by HRM within 30 days
+				of the course start date. </p>
+				<input type="submit" value="Submit" class="submit">
+				<hr>
+				
+				
+						
+						
+			
+		</form>
+
+	</main>
+<footer>
+  <h1><span style="color:red;">HR</span>NAVIGATOR</h1>
+</footer>
+</body>
+</html>

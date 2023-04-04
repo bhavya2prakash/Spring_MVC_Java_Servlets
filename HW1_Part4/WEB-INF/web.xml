@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>part4</servlet-name>
+		<servlet-class>DisplayUserInput</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>part4</servlet-name>
+		<url-pattern>/part4</url-pattern>
+	</servlet-mapping>
+</web-app>

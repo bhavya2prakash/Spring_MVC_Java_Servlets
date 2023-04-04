@@ -1,0 +1,144 @@
+body{
+	
+	margin: 0 auto;
+	width:65%;
+	font-family:"Arial";
+	font-size:15px;
+	color:gray;
+	
+}
+
+
+
+#wrap{
+	width: 860px;
+	height:75px;
+	/*background-color:yellow;*/
+	padding-top:0;
+	padding-left:5px;
+	padding-right:2px;
+	
+	
+	
+}
+
+#left{
+	
+	
+	height:50px;
+	width:250px;
+	/*background-color:green;*/
+	float:left;
+	
+	
+	
+}
+
+
+
+#right{
+	
+	height:50px;
+	width:210px;
+	/*background-color:white;*/
+	float:right;
+	padding-top:25px;
+	font-weight:bold;
+	font-family:"Arial";
+	color:black;
+	
+	
+}
+h1{
+	color:#1964A0;
+	font-family:"Times New Roman";
+	float:right;
+	
+}
+
+h3 {
+	color:red;
+	font-family:"Arial";
+	
+}
+nav{
+	display:inline
+}	
+.instructions{
+	font-size:15px;
+	color:black;
+	font-style:italic;
+	font-family:"Arial";
+	border-style: solid;
+	border-width:3px;
+	padding:14px;
+	
+}
+hr{
+	height:2px;
+	border:none;
+	background-color:red;
+}
+
+
+table,th,td {
+	border:none;
+	
+	text-align: center;
+}
+
+
+
+textarea{
+	width:100%;
+}
+
+.recommendation{
+	
+	display:inline;
+	margin-left:350px;
+	
+}
+#indicate{
+	color:#1964A0;
+	font-style:italic;
+}
+.course{
+	color:#2D506D;
+	padding:12px;
+	background-color:#E1D9D1;
+}
+
+.advisorcomments{
+	width:75%;
+}
+
+.studentcomment{
+	width:88%;
+}
+.submit{
+	margin-left:50%;
+	font-weight:bold;
+}
+
+.input1{
+	
+	border: 0;
+    outline: 0;
+    width:15%;
+    border-bottom: 1px solid gray;
+}
+.input2{
+	
+	border: 0;
+    outline: 0;
+    width: 100%; 
+     box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+    border-bottom: 1px solid gray;
+}
+
+
+
+

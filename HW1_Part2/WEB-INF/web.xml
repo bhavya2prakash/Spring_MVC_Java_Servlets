@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>requestheaders</servlet-name>
+		<servlet-class>DisplayRequestHeaders</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>requestheaders</servlet-name>
+		<url-pattern>/requestheaders.htm</url-pattern>
+	</servlet-mapping>
+</web-app>

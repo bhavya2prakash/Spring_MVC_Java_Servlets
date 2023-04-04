@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<xml-body>
+        <vegetables>  
+            <vegetable>  
+              <name>onion</name>  
+              <price>40</price>  
+            </vegetable>  
+         <vegetable>  
+              <name>Potato</name>  
+              <price>30</price>  
+            </vegetable>  
+         <vegetable>  
+              <name>Tomato</name>  
+              <price>90</price>  
+            </vegetable>  
+        </vegetables>
+</xml-body>
+

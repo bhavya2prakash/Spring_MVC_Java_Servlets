@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>DisplayExcel</web-resource-name>
+            <url-pattern>/Part5/readExcel.html</url-pattern>
+            <http-method>GET</http-method>
+            <http-method>POST</http-method>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>part5_user</role-name>
+        </auth-constraint>
+        <!--        <user-data-constraint>
+            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+        </user-data-constraint>-->
+    </security-constraint>
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>DisplayUserInput</web-resource-name>
+            <url-pattern>/Part6/tution_waiver.html</url-pattern>
+            <http-method>GET</http-method>
+            <http-method>POST</http-method>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>part6_user</role-name>
+        </auth-constraint>
+        <!--        <user-data-constraint>
+            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+        </user-data-constraint>-->
+    </security-constraint>
+  
+    <login-config>
+        <auth-method>BASIC</auth-method>
+        <realm-name>Web Security</realm-name>
+    </login-config>
+<!--role rolename="part5_user" />
+<role rolename="part6_user" />
+<role rolename="part7_user" /> 
+<user username="part5" password="part5" roles="part5_user"/>
+<user username="part6" password="part6" roles="part6_user"/>
+<user username="part7" password="part7" roles="part7_user"/>-->
+</web-app>

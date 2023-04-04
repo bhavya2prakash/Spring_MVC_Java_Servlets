@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+	<title>Form Part 3.3</title>
+	<link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+	<form action="formsubmission" method="post">
+		<fieldset style="border-color:red;">
+			<legend style="background-color:orange;">This is my form</legend>
+		<table>
+		    <tr>
+			    <td>
+					<label for="email">Email:</label>
+				</td>
+				 <td>
+					<input type="text" name="email" required>
+				</td>
+			</tr>
+			<tr>
+			    <td>
+					<label for="password">Password:</label>
+				</td>
+				 <td>
+					<input type="password" name="password" required>
+				</td>
+			</tr>
+			<tr>
+			    <td>
+					<label for="confirmPassword">Confirm Password:</label>
+				</td>
+				 <td>
+					<input type="password" name="confirmPassword" required>
+				</td>
+			</tr>
+			<tr>
+			    <td>
+					<label for="picture">Upload Your Picture:</label>
+				</td>
+				 <td>
+					<input type="file" name="picture" accept="image/*"required>
+				</td>
+			</tr>
+			<tr>
+			    <td>
+					<label for="gender">Gender:</label>
+				</td>
+				 <td>
+					<input type="radio" name="gender" value="Male" required>Male
+					<input type="radio" name="gender" value="Female" required>Female
+				</td>
+			</tr>
+			<tr>
+			    <td>
+					<label for="country">Country:</label>
+				</td>
+				<td>
+					<select name="country" required> 
+					<option value="United Kingdom">United Kingdom</option>
+					<option value="United States">United States</option>
+					<option value="India">India</option>
+					<option value="Germany">Germany</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+			    <td>
+					<label for="hobby">Hobby:</label>
+				</td>
+				 <td>
+					<input type="checkbox" name="hobby" value="Cricket">Cricket
+					<input type="checkbox" name="hobby" value="Football">Football
+				</td>
+			</tr>
+			<tr>
+			    <td>
+					<label for="address">Address:</label>
+				</td>
+				 <td>
+					<textarea name="address" required></textarea>
+				</td>
+			</tr>
+			<tr>
+			    <td>
+				
+				</td>
+				 <td>
+				<input type="submit" name="submit" value="Submit">
+				</td>
+			 </tr>
+		</table>
+		
+		</fieldset>
+	</form>
+</body>
+</html>

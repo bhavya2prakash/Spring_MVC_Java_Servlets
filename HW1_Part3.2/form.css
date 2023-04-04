@@ -1,0 +1,14 @@
+body{
+	width:50%;
+	margin:auto;
+}
+form{
+	padding:25px;
+}
+table,tr,td{
+	
+	padding:10px;
+}
+input{
+	background-color: #E9CCA4;
+}
